@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width:1100px;
+    margin:0 auto;
+    padding:0px 10px;
+}
+.wrapper{
+    display:flex;
+    justify-content: space-between;
+    width:600px;
+    padding:40px;
+}
+.block-wrapper{
+    background-color: aqua;
+    border-radius:10px;
+    padding:20px 40px;
+    margin-bottom:30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 14px 24px 0px rgba(66, 68, 90, 1);
+}
+.block-wrapper img{
+    width:40px;
+    height:40px;
+}
+.block-text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:20px;
+}
